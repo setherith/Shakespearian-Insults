@@ -1,0 +1,19 @@
+{
+  "name": "shakespearian-insults",
+  "version": "1.0.0",
+  "description": "Mock thou liketh Macbeth!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setherith/Shakespearian-Insults.git"
+  },
+  "author": "Shane Pudner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/setherith/Shakespearian-Insults/issues"
+  },
+  "homepage": "https://github.com/setherith/Shakespearian-Insults#readme"
+}
