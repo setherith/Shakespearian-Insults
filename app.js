@@ -1,8 +1,6 @@
 var http = require('http');
 var express = require('express');
-var listA = require('./listA.js');
-var listB = require('./listB.js');
-var listC = require('./listC.js');
+var lists = require('./lists.js');
 
 var app = express();
 
@@ -13,9 +11,9 @@ function RandomElement(array) {
 
 function preparethMineTongue(err, callback) {
 	result = "Thou ";
-	result += RandomElement(listA.listA) + " ";
-	result += RandomElement(listB.listB) + " ";
-	result += RandomElement(listC.listC) + " ";
+	result += RandomElement(lists.listA) + " ";
+	result += RandomElement(lists.listB) + " ";
+	result += RandomElement(lists.listC) + " ";
 	return result;
 };
 
