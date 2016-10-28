@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/setherith/Shakespearian-Insults/issues"
   },
-  "homepage": "https://github.com/setherith/Shakespearian-Insults#readme"
+  "homepage": "https://github.com/setherith/Shakespearian-Insults#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
